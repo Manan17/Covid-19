@@ -1,0 +1,25 @@
+body {
+  background-color: floralwhite;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 370px;
+  margin: 50px 0;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 15%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
